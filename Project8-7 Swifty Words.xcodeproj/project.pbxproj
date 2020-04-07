@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0835172F2435963B0042CD21 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0835172E2435963B0042CD21 /* level2.txt */; };
 		085B29492432F415004B2639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B29482432F415004B2639 /* AppDelegate.swift */; };
 		085B294B2432F415004B2639 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B294A2432F415004B2639 /* SceneDelegate.swift */; };
 		085B294D2432F415004B2639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B294C2432F415004B2639 /* ViewController.swift */; };
 		085B29502432F415004B2639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085B294E2432F415004B2639 /* Main.storyboard */; };
 		085B29522432F417004B2639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085B29512432F417004B2639 /* Assets.xcassets */; };
 		085B29552432F417004B2639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085B29532432F417004B2639 /* LaunchScreen.storyboard */; };
-		08858B4C2435A8BD00868F7E /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08858B4B2435A8BD00868F7E /* level1.txt */; };
+		08EC7C6F243D11A400B086D5 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08EC7C6D243D11A300B086D5 /* level1.txt */; };
+		08EC7C70243D11A400B086D5 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08EC7C6E243D11A300B086D5 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0835172E2435963B0042CD21 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		085B29452432F415004B2639 /* Project8-7 Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project8-7 Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		085B29482432F415004B2639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		085B294A2432F415004B2639 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +26,8 @@
 		085B29512432F417004B2639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		085B29542432F417004B2639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		085B29562432F417004B2639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08858B4B2435A8BD00868F7E /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = "../../Hacking With Swift/project8/Project8/level1.txt"; sourceTree = "<group>"; };
+		08EC7C6D243D11A300B086D5 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = "../../Hacking With Swift/project8-files/level1.txt"; sourceTree = "<group>"; };
+		08EC7C6E243D11A300B086D5 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				085B29512432F417004B2639 /* Assets.xcassets */,
 				085B29532432F417004B2639 /* LaunchScreen.storyboard */,
 				085B29562432F417004B2639 /* Info.plist */,
-				08858B4B2435A8BD00868F7E /* level1.txt */,
-				0835172E2435963B0042CD21 /* level2.txt */,
+				08EC7C6D243D11A300B086D5 /* level1.txt */,
+				08EC7C6E243D11A300B086D5 /* level2.txt */,
 			);
 			path = "Project8-7 Swifty Words";
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08858B4C2435A8BD00868F7E /* level1.txt in Resources */,
+				08EC7C6F243D11A400B086D5 /* level1.txt in Resources */,
+				08EC7C70243D11A400B086D5 /* level2.txt in Resources */,
 				085B29552432F417004B2639 /* LaunchScreen.storyboard in Resources */,
-				0835172F2435963B0042CD21 /* level2.txt in Resources */,
 				085B29522432F417004B2639 /* Assets.xcassets in Resources */,
 				085B29502432F415004B2639 /* Main.storyboard in Resources */,
 			);
